@@ -1,0 +1,95 @@
+C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/square_root_48_48_integer/square_root_48_48_integer_sim_netlist.vhdl {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/square_root_48_48_integer/square_root_48_48_integer_sim_netlist.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling entity square_root_48_48_integer
+-- Loading package STANDARD
+-- Compiling architecture STRUCTURE of square_root_48_48_integer
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity square_root_48_48_integer
+-- Loading package STANDARD
+
+} {} {}} C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/multiplier_32x32_signed/multiplier_32x32_signed_sim_netlist.vhdl {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/multiplier_32x32_signed/multiplier_32x32_signed_sim_netlist.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling entity multiplier_32x32_signed
+-- Loading package STANDARD
+-- Compiling architecture STRUCTURE of multiplier_32x32_signed
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity multiplier_32x32_signed
+-- Loading package STANDARD
+
+} {} {}} C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Compiling package common_parameters
+-- Loading package STANDARD
+-- Compiling package body common_parameters
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Loading package common_parameters
+-- Loading package STANDARD
+
+} {} {}} C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Loading package common_functions
+-- Loading package common_parameters
+-- Compiling entity qam16_testbench
+-- Loading package STANDARD
+-- Compiling architecture behavioral of qam16_testbench
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Loading package common_functions
+-- Loading package common_parameters
+-- Loading entity qam16_testbench
+-- Loading entity find_likely_coordinates
+** Error: C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd(160): near ";": (vcom-1576) expecting ')'.
+** Error: C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd(165): VHDL Compiler exiting
+
+} {23.0 25.0} {}} C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_functions.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_functions.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Compiling package common_functions
+-- Loading package STANDARD
+-- Compiling package body common_functions
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Loading package std_logic_textio
+-- Loading package common_functions
+-- Loading package STANDARD
+
+} {} {}} C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}}
