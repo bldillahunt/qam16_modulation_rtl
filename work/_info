@@ -10448,26 +10448,26 @@ R243
 R1
 R3
 R4
-Z252 w1778822359
+Z252 w1779224666
 R5
 Z253 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd
 Z254 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd
 l0
 L11
-VDh<z7ajUaoCDcTIUO]_[71
-!s100 IXJh2=@2fg3MzgfOhY5YD0
+VGmFmTI69`GaXC2oOnOP>b2
+!s100 Ic;Hm]Kd<5c][moG2eA;31
 R8
 32
-Z255 !s110 1778882676
+!s110 1779226039
 !i10b 1
-Z256 !s108 1778882675.000000
-Z257 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd|
-Z258 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd|
+Z255 !s108 1779226039.000000
+Z256 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd|
+Z257 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/common_parameters.vhd|
 !i113 1
 R13
 R14
 Bbody
-Z259 DPx4 work 17 common_parameters 0 22 Dh<z7ajUaoCDcTIUO]_[71
+Z258 DPx4 work 17 common_parameters 0 22 GmFmTI69`GaXC2oOnOP>b2
 R2
 R242
 R243
@@ -10475,22 +10475,22 @@ R1
 R3
 R4
 l0
-L17
-VkLFgNQIIW@VB10QiNoG>`0
-!s100 9VR9AbgL7VD_;[mI2S0`@2
+L26
+V5M24ZYeeCPXZN]5X72Ah01
+!s100 NLDO8Ieo7n@85nc5h0]031
 R8
 32
-R255
+!s110 1779226040
 !i10b 1
+R255
 R256
 R257
-R258
 !i113 1
 R13
 R14
-Efind_likely_coordinates
-Z260 w1779061940
-R259
+Econstellation_testbench
+Z259 w1779235070
+R258
 R2
 R251
 R242
@@ -10499,23 +10499,24 @@ R1
 R3
 R4
 R5
-Z261 8find_likely_coordinates.vhd
-Z262 Ffind_likely_coordinates.vhd
+Z260 8constellation_testbench.vhd
+Z261 Fconstellation_testbench.vhd
 l0
 L12
-Vk747]LiH^MGM6[dzBHg?O2
-!s100 7R6^j8hh:`Ock80@i:2a02
+V5TznN5UbSl0iU_hhS:3AI3
+!s100 b`FF]4`GRji9[jgBFXF?^3
 R8
 32
-!s110 1779061957
+Z262 !s110 1779235081
 !i10b 1
-Z263 !s108 1779061957.000000
-Z264 !s90 -reportprogress|300|find_likely_coordinates.vhd|
-Z265 !s107 find_likely_coordinates.vhd|
+Z263 !s108 1779235081.000000
+Z264 !s90 -reportprogress|300|constellation_testbench.vhd|
+Z265 !s107 constellation_testbench.vhd|
 !i113 1
 R14
-Astruct
-R259
+Abehavioral
+Z266 DEx4 work 23 convert_data_to_symbols 0 22 ?nf@lN`e<F^bfS0M>E:L22
+R258
 R2
 R251
 R242
@@ -10523,19 +10524,690 @@ R243
 R1
 R3
 R4
-Z266 DEx4 work 23 find_likely_coordinates 0 22 k747]LiH^MGM6[dzBHg?O2
-l186
-L38
-V?16Q^C8@DPlIoO;^;Y7jz3
-!s100 SDY;84:_10mYLBlAUR[FU1
+Z267 DEx4 work 23 constellation_testbench 0 22 5TznN5UbSl0iU_hhS:3AI3
+l39
+L15
+V0InPz[W`X@M8V4OZ;K3oI1
+!s100 Ro;L`7;k8M0:Lozi7mZLa3
 R8
 32
-!s110 1779061958
+R262
 !i10b 1
 R263
 R264
 R265
 !i113 1
+R14
+Econvert_data_to_symbols
+Z268 w1779206592
+R258
+R2
+R251
+R242
+R243
+R1
+R3
+R4
+R5
+Z269 8convert_data_to_symbols.vhd
+Z270 Fconvert_data_to_symbols.vhd
+l0
+L12
+V?nf@lN`e<F^bfS0M>E:L22
+!s100 Q791HTm_BmJWY;XE64dMF1
+R8
+32
+Z271 !s110 1779235080
+!i10b 1
+Z272 !s108 1779235079.000000
+Z273 !s90 -reportprogress|300|convert_data_to_symbols.vhd|
+Z274 !s107 convert_data_to_symbols.vhd|
+!i113 1
+R14
+Astruct
+R258
+R2
+R251
+R242
+R243
+R1
+R3
+R4
+R266
+l75
+L34
+VM]`=a2jTQOaSLiBeTib_L1
+!s100 HJo<JoUm8^^Zf]U]l311i0
+R8
+32
+R271
+!i10b 1
+R272
+R273
+R274
+!i113 1
+R14
+Efifo_128bitsx512
+Z275 w1779159894
+R1
+R2
+R3
+R4
+R5
+Z276 8C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/fifo_128bitsx512/fifo_128bitsx512_sim_netlist.vhdl
+Z277 FC:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/fifo_128bitsx512/fifo_128bitsx512_sim_netlist.vhdl
+l0
+L2276
+V;7<9H^aMSAoM9NcSN3PFF1
+!s100 4S<<4]QYiZMUOYjUQ5LZf3
+R8
+32
+Z278 !s110 1779161072
+!i10b 1
+Z279 !s108 1779161071.000000
+Z280 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/fifo_128bitsx512/fifo_128bitsx512_sim_netlist.vhdl|
+Z281 !s107 C:/Users/ambig/source/Vivado/quadrature_amplitude_modulation/quadrature_amplitude_modulation.gen/sources_1/ip/fifo_128bitsx512/fifo_128bitsx512_sim_netlist.vhdl|
+!i113 1
+R13
+R14
+Astructure
+Z282 DEx4 work 40 fifo_128bitsx512_fifo_generator_v13_2_13 0 22 4=dd>765J3ahQ02M7>NSN1
+R1
+R2
+R3
+R4
+DEx4 work 16 fifo_128bitsx512 0 22 ;7<9H^aMSAoM9NcSN3PFF1
+l2852
+L2301
+VgY;LNz>Hf3`7[3_6:83Qe3
+!s100 V9TX:<f4^38MeK8Re`]=Q1
+R8
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+EaGtniCx6wP/V8jjmr30C/dk+exlOFFVB76pgAWMVy7+LcAVkrl5FOSc+KOQeLY4M
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1224
+V_KW3[BHEl5C;J@8J^GQE?1
+!s100 WZ`QeOX0[Je:fbbAl3oG<3
+R8
+!i8a 1746080528
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+ne3efb18
+AzqEMpgk2dKOKCNf2R/E+2Q==
+Z283 DEx4 work 31 fifo_128bitsx512_builtin_prim_3 0 22 DDXo2`IW?KnAVjAdk_;7N0
+R1
+R2
+R3
+R4
+Z284 DEx4 work 33 fifo_128bitsx512_builtin_extdepth 0 22 _KW3[BHEl5C;J@8J^GQE?1
+l1245
+L1239
+VzFM06WT9VEZSghhP?b2QJ1
+!s100 N:E_5HeK6U3jhUH9h:B<C2
+R8
+!i8a 625159904
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EPyqeN5qieVewA5o/biYaQewd9dLRIcXBxF7n8SxCwPcWYM4MEBDKaO7ceNBKgfVs
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1278
+VXdedlhP=`Gi^c:i@b<FFN1
+!s100 B]4kNzh@AgC<m2lR;4DO30
+R8
+!i8a 429802528
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+nefb1410
+AEV0CK7JYBQApzNth0lgRAw==
+Z285 DEx4 work 31 fifo_128bitsx512_builtin_prim_2 0 22 dYbDS8I]DQR4OGMHV6X163
+R1
+R2
+R3
+R4
+Z286 DEx4 work 35 fifo_128bitsx512_builtin_extdepth_0 0 22 XdedlhP=`Gi^c:i@b<FFN1
+l1297
+L1291
+VPm86lljPlk;Ygf_mUaBae0
+!s100 AL^mgidkL]d8ikZlIFnlc1
+R8
+!i8a 1126466448
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EIIP/+yfwHvjFnszmdcjgBtSgQWv3RkHDe2sIZspWhs40fFpYogcpk3URl3q/Jynz
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1328
+VXK3U]jl_3FDM7[iiI7SX?0
+!s100 JjbmhUzfeczCMMNn]>96R3
+R8
+!i8a 1560397328
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+nefb1411
+APln5h5Vs1cAzmLliN0JH1w==
+Z287 DEx4 work 29 fifo_128bitsx512_builtin_prim 0 22 Vfj32e[m]0i8ORUPAJ3?n0
+R1
+R2
+R3
+R4
+Z288 DEx4 work 35 fifo_128bitsx512_builtin_extdepth_1 0 22 XK3U]jl_3FDM7[iiI7SX?0
+l1347
+L1341
+VSE1Q7_z`IU<4E5CQT3bze3
+!s100 5V@5HAUj1a:nUlQ??gfRD0
+R8
+!i8a 585053456
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+En9GoAMT+GRmSmL+QbntJxAvTaYpsPrhXb3BddBr7hj4=
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L122
+VVfj32e[m]0i8ORUPAJ3?n0
+!s100 NP:L:JU_CX>1_:Vl>]9Bf2
+R8
+!i8a 36231904
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+n43f096d
+AzECrSlVfFGj1V3UY+E/hag==
+R1
+R2
+R3
+R4
+R287
+l331
+L135
+Vh^]<So5RU21?1z7lLYFV:3
+!s100 MPmBS>^N]NcZgFUbEQ6KI3
+R8
+!i8a 1339874544
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EqjQMPNMbYzifr15/s/JXac5gwR5By2nmD1qmnOf33Nw=
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L578
+VdYbDS8I]DQR4OGMHV6X163
+!s100 _VkJ@lbRV7DOkg;[HX`3K2
+R8
+!i8a 1288461312
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+nf097712
+AGqYhbgqhQE0snWwFZpYVyA==
+R1
+R2
+R3
+R4
+R285
+l716
+L591
+VORO7kYn6VD1Rk5bZAM2Th2
+!s100 :[R`0zR>4SMa?IZ?SQ4[=1
+R8
+!i8a 579752080
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EbpP9pTp+xmQDPeHCrKNzWAMAzYh4D9dZZN4EanXf4EQ=
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L892
+VDDXo2`IW?KnAVjAdk_;7N0
+!s100 ;P:z2<6mEg_]o_QO`lPb^3
+R8
+!i8a 1773783456
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+nf097713
+ARW/dg8lDpy8ZSu7U93CxvQ==
+R1
+R2
+R3
+R4
+R283
+l1032
+L907
+VYbl<Oa2cdQQT>9S;Zl>1:2
+!s100 cnKn3ld0G1TS;4=9E4`GG2
+R8
+!i8a 597308880
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+Elu/Nda+QX2Mu0eUaOAZ6yUdFcpzeMZ9SZ3tpS6VsP/U=
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1378
+Vf98[jYh<MINmY=DPU^I7?3
+!s100 1336nbcGe<YEg9[;CgccD2
+R8
+!i8a 682603056
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+n943fe70
+A2pHtrCz1A/MugwfhtgR82g==
+R288
+R286
+R284
+R1
+R2
+R3
+R4
+Z289 DEx4 work 28 fifo_128bitsx512_builtin_top 0 22 f98[jYh<MINmY=DPU^I7?3
+l1396
+L1395
+VZ3YaEXolXI6b4P@6C_V`51
+!s100 X<eamNHnhFCIY2V;Y>=>a2
+R8
+!i8a 862872864
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EPsr1o3wl9HtFF42fBu2fBnaGmoboJ2PULZ/CzFgqtwRVh7btDxtK8nl3bK07UUFX
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1514
+VZ=P@Zj69=E15Hj:IUR[JY2
+!s100 l6ASlJAMahaj1NM_`WdPc0
+R8
+!i8a 1068838016
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+n96fc680
+ALhcAaOyue/1g7AMvncuUKw==
+Z290 DEx4 work 48 fifo_128bitsx512_fifo_generator_v13_2_13_builtin 0 22 Gz[TZiES3o<hWNFGIR[_E0
+R1
+R2
+R3
+R4
+Z291 DEx4 work 35 fifo_128bitsx512_fifo_generator_top 0 22 Z=P@Zj69=E15Hj:IUR[JY2
+l1532
+L1531
+VZa_o7g4e@l9fFW?Zga`gm0
+!s100 de^mcmg5ehfDen=G5G`F90
+R8
+!i8a 1333016224
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+E9lxE0QenXzUR2B+ginD0XLroyUlNxvGp0qah+YBn5nRnt4GyBPWY805z6X18PESh
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1588
+V4=dd>765J3ahQ02M7>NSN1
+!s100 N]35Y951FUT_QJCzoA6Fg3
+R8
+!i8a 1444560896
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+na249e23
+ARy148JT7ZHwpgBmcdQEHrQ==
+Z292 DEx4 work 46 fifo_128bitsx512_fifo_generator_v13_2_13_synth 0 22 ;nnoBA^nj>Ui1T23m]4iz2
+R1
+R2
+R3
+R4
+R282
+l2236
+L2234
+VJSzYdY^Pcn3X]BIMF0^Q_0
+!s100 RdNfmZf]Z>XcMCiEfW0[d2
+R8
+!i8a 993130832
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+EL1R3luo3BJfgZW5U8tClDNmWsBl6eQ8/hF3xN8U5dmuMoY/yMkoyD0jQgpiPq24x3e6+9mJOPxdeAyQlWh3M0A==
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1433
+VGz[TZiES3o<hWNFGIR[_E0
+!s100 :icUeXM233g@XbHD^cT300
+R8
+!i8a 306117280
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+nd22198e
+AY3hYe+YJNQVKR9b2ItYJ3w==
+R289
+R1
+R2
+R3
+R4
+R290
+l1465
+L1450
+V?L=dngSVg>i4?ja8N6:S:1
+!s100 N4gTORQI:aOC_UU=]ajB:0
+R8
+!i8a 249796208
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+E4ffdtcD8EvrR+lGKFsMzopgOI05rXg+PMHSFbQ0iGZctLF/nAzcn9nscNNnr6wtR
+R275
+R1
+R2
+R3
+R4
+R5
+R276
+R277
+l0
+L1551
+V;nnoBA^nj>Ui1T23m]4iz2
+!s100 YmT`n>5lEb<h9fPVXJ_Z61
+R8
+!i8a 1617511552
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+n34e7b88
+A2LFWywio1kYWf6y3FQ0+NA==
+R291
+R1
+R2
+R3
+R4
+R292
+l1569
+L1568
+V14IHmMTFgeI2gj@J@P=D62
+!s100 hC;OH7e`b?5BYIHNcS<143
+R8
+!i8a 1785938208
+32
+R278
+!i10b 1
+R279
+R280
+R281
+!i113 1
+R13
+R14
+R16
+Efind_likely_coordinates
+Z293 w1779061940
+Z294 DPx4 work 17 common_parameters 0 22 d;fU9VIk>0Eia_c:SNX9X0
+R2
+R251
+R242
+R243
+R1
+R3
+R4
+R5
+Z295 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/find_likely_coordinates.vhd
+Z296 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/find_likely_coordinates.vhd
+l0
+L12
+VT]BU80bULSL<[fiU@hWf71
+!s100 7R6^j8hh:`Ock80@i:2a02
+R8
+32
+Z297 !s110 1779160999
+!i10b 1
+Z298 !s108 1779160998.000000
+Z299 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/find_likely_coordinates.vhd|
+Z300 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/find_likely_coordinates.vhd|
+!i113 1
+R13
+R14
+Astruct
+R294
+R2
+R251
+R242
+R243
+R1
+R3
+R4
+Z301 DEx4 work 23 find_likely_coordinates 0 22 T]BU80bULSL<[fiU@hWf71
+l186
+L38
+VHjFDQPdKWzadMDOYNQ_nA1
+!s100 SDY;84:_10mYLBlAUR[FU1
+R8
+32
+R297
+!i10b 1
+R298
+R299
+R300
+!i113 1
+R13
 R14
 Emultiplier_32x32_signed
 R0
@@ -10561,7 +11233,7 @@ R12
 R13
 R14
 Astructure
-Z267 DEx4 work 41 multiplier_32x32_signed_mult_gen_v12_0_23 0 22 @DflU6YL6cAEh6:63JVOk0
+Z302 DEx4 work 41 multiplier_32x32_signed_mult_gen_v12_0_23 0 22 @DflU6YL6cAEh6:63JVOk0
 R1
 R2
 R3
@@ -10615,7 +11287,7 @@ R1
 R2
 R3
 R4
-Z268 DEx4 work 27 multiplier_32x32_signed_dsp 0 22 cnBRPNF]SCl@WM538eY1P0
+Z303 DEx4 work 27 multiplier_32x32_signed_dsp 0 22 cnBRPNF]SCl@WM538eY1P0
 l1891
 L1775
 VHQoBZ2LA:gF>;:7>a?@k]0
@@ -10658,12 +11330,12 @@ R13
 R14
 nf32ca63
 A79Uh+cAmljDMWBPoEXbzVw==
-Z269 DEx4 work 45 multiplier_32x32_signed_mult_gen_v12_0_23_viv 0 22 mdoJ@=;G`PmiZV:V`k`8G3
+Z304 DEx4 work 45 multiplier_32x32_signed_mult_gen_v12_0_23_viv 0 22 mdoJ@=;G`PmiZV:V`k`8G3
 R1
 R2
 R3
 R4
-R267
+R302
 l2068
 L2036
 VQWf4[:0_Li;09K3RnkjlZ0
@@ -10706,12 +11378,12 @@ R13
 R14
 na685fc6
 A5A6fXUFQbtEHWpPWAjosBg==
-R268
+R303
 R1
 R2
 R3
 R4
-R269
+R304
 l2466
 L2464
 VNC:lfG5<fdFJ4AJo72N6o3
@@ -10729,8 +11401,8 @@ R13
 R14
 R16
 Eqam16_testbench
-Z270 w1779047964
-R259
+Z305 w1779047964
+Z306 DPx4 work 17 common_parameters 0 22 Dh<z7ajUaoCDcTIUO]_[71
 R2
 R251
 R242
@@ -10739,24 +11411,24 @@ R1
 R3
 R4
 R5
-Z271 8qam16_testbench.vhd
-Z272 Fqam16_testbench.vhd
+Z307 8qam16_testbench.vhd
+Z308 Fqam16_testbench.vhd
 l0
 L12
 V8lGjBXd2dEcHV>LmnSo5U2
 !s100 @zT0N[H9SClN9`^;ZNRF@2
 R8
 32
-Z273 !s110 1779061959
+Z309 !s110 1779061959
 !i10b 1
-Z274 !s108 1779061958.000000
-Z275 !s90 -reportprogress|300|qam16_testbench.vhd|
-Z276 !s107 qam16_testbench.vhd|
+Z310 !s108 1779061958.000000
+Z311 !s90 -reportprogress|300|qam16_testbench.vhd|
+Z312 !s107 qam16_testbench.vhd|
 !i113 1
 R14
 Abehavioral
-R266
-R259
+DEx4 work 23 find_likely_coordinates 0 22 k747]LiH^MGM6[dzBHg?O2
+R306
 R2
 R251
 R242
@@ -10764,18 +11436,18 @@ R243
 R1
 R3
 R4
-Z277 DEx4 work 15 qam16_testbench 0 22 8lGjBXd2dEcHV>LmnSo5U2
+DEx4 work 15 qam16_testbench 0 22 8lGjBXd2dEcHV>LmnSo5U2
 l45
 L15
-Z278 VzAik_Uo9C`8zR>[X<z[SE1
-Z279 !s100 FfCLR2hCAi`F5<jc0NP0K3
+VzAik_Uo9C`8zR>[X<z[SE1
+!s100 FfCLR2hCAi`F5<jc0NP0K3
 R8
 32
-R273
+R309
 !i10b 1
-R274
-R275
-R276
+R310
+R311
+R312
 !i113 1
 R14
 Esquare_root_48_48_integer
@@ -10802,7 +11474,7 @@ R26
 R13
 R14
 Astructure
-Z280 DEx4 work 40 square_root_48_48_integer_cordic_v6_0_24 0 22 KQmN@<oGAk>FmkcjXN=c20
+Z313 DEx4 work 40 square_root_48_48_integer_cordic_v6_0_24 0 22 KQmN@<oGAk>FmkcjXN=c20
 R1
 R2
 R3
@@ -10848,12 +11520,12 @@ R13
 R14
 nd0b6f82
 ArHYm7OU8cvJc6TkQcI+lzA==
-Z281 DEx4 work 47 square_root_48_48_integer_c_addsub_v12_0_20_viv 0 22 [fzj?j4R0Skf>e=8W8:KI1
+Z314 DEx4 work 47 square_root_48_48_integer_c_addsub_v12_0_20_viv 0 22 [fzj?j4R0Skf>e=8W8:KI1
 R1
 R2
 R3
 R4
-Z282 DEx4 work 32 square_root_48_48_integer_addsub 0 22 P6?EYJ>:B:hK:SAZgBK@j2
+Z315 DEx4 work 32 square_root_48_48_integer_addsub 0 22 P6?EYJ>:B:hK:SAZgBK@j2
 l22177
 L22112
 V?Vef8nak;Qa2f4NI<G`813
@@ -10896,12 +11568,12 @@ R13
 R14
 n17c6209
 AGGjn9lVms8YMT3n4dlMpgQ==
-Z283 DEx4 work 55 square_root_48_48_integer_c_addsub_v12_0_20_lut6_legacy 0 22 =m;AW]dl]l0zd=Tln3[Ri2
+Z316 DEx4 work 55 square_root_48_48_integer_c_addsub_v12_0_20_lut6_legacy 0 22 =m;AW]dl]l0zd=Tln3[Ri2
 R1
 R2
 R3
 R4
-Z284 DEx4 work 57 square_root_48_48_integer_c_addsub_v12_0_20_fabric_legacy 0 22 4>C5zgE9f=0V3cD6Ol6QP1
+Z317 DEx4 work 57 square_root_48_48_integer_c_addsub_v12_0_20_fabric_legacy 0 22 4>C5zgE9f=0V3cD6Ol6QP1
 l18048
 L18047
 VCh<UL@[KjE70hM7lXToUh3
@@ -10944,12 +11616,12 @@ R13
 R14
 n2b93409
 AmpEyBVnRIr8ZDGXKDqmZTQ==
-R284
+R317
 R1
 R2
 R3
 R4
-Z285 DEx4 work 50 square_root_48_48_integer_c_addsub_v12_0_20_legacy 0 22 0YJj2G43PC`9X@cL<f=D63
+Z318 DEx4 work 50 square_root_48_48_integer_c_addsub_v12_0_20_legacy 0 22 0YJj2G43PC`9X@cL<f=D63
 l18967
 L18966
 VF>bfJ=79_[aTR5Y=SW[TS3
@@ -10996,7 +11668,7 @@ R1
 R2
 R3
 R4
-R283
+R316
 l182
 L132
 VHd4kDmW[XQ:@oK=Fd471g1
@@ -11039,12 +11711,12 @@ R13
 R14
 ne3a2626
 AwWRrWJ3K6DdiSYoiovwuVw==
-R285
+R318
 R1
 R2
 R3
 R4
-R281
+R314
 l19617
 L19614
 V3hQL9TCXY4Q74Y6l@J:1F0
@@ -11158,14 +11830,14 @@ R233
 R237
 R216
 R229
-Z286 DEx4 work 41 square_root_48_48_integer_cordic_sqrt_mod 0 22 Y@5X=bdL5859ij1cHi<nn1
+Z319 DEx4 work 41 square_root_48_48_integer_cordic_sqrt_mod 0 22 Y@5X=bdL5859ij1cHi<nn1
 R172
-Z287 DEx4 work 31 square_root_48_48_integer_delay 0 22 HQH50k0RQAeHh3z9deVk23
+Z320 DEx4 work 31 square_root_48_48_integer_delay 0 22 HQH50k0RQAeHh3z9deVk23
 R1
 R2
 R3
 R4
-Z288 DEx4 work 37 square_root_48_48_integer_cordic_sqrt 0 22 4Smjj9PT70J[A00ehVecM3
+Z321 DEx4 work 37 square_root_48_48_integer_cordic_sqrt 0 22 4Smjj9PT70J[A00ehVecM3
 l30496
 L30399
 VMF?e<nGcUOiJ=hDh>DIcJ2
@@ -11208,7 +11880,7 @@ R13
 R14
 nd664b84
 AolKD1upFtlQZgQ5lBoT43g==
-R282
+R315
 R239
 R238
 R240
@@ -11216,7 +11888,7 @@ R1
 R2
 R3
 R4
-R286
+R319
 l24801
 L24768
 VzDUKz6i_hl>iJ5?CFodl?3
@@ -11259,12 +11931,12 @@ R13
 R14
 nefda4c4
 A0bfob/hfy30QtBfKxVZvdw==
-Z289 DEx4 work 44 square_root_48_48_integer_cordic_v6_0_24_viv 0 22 dF;bY0liDXOGn4WfRiBD93
+Z322 DEx4 work 44 square_root_48_48_integer_cordic_v6_0_24_viv 0 22 dF;bY0liDXOGn4WfRiBD93
 R1
 R2
 R3
 R4
-R280
+R313
 l20321
 L20279
 VUA8M>2J]6g7>W:QGAXX<03
@@ -11307,12 +11979,12 @@ R13
 R14
 n8976168
 AVYxLvz5PgD6GQNifJ7qi+w==
-R288
+R321
 R1
 R2
 R3
 R4
-Z290 DEx4 work 46 square_root_48_48_integer_cordic_v6_0_24_synth 0 22 Zn7[1DDAf?fghP>DbiIGX3
+Z323 DEx4 work 46 square_root_48_48_integer_cordic_v6_0_24_synth 0 22 Zn7[1DDAf?fghP>DbiIGX3
 l30817
 L30816
 VN[A78RKA[mHZ0[QEoeM3L1
@@ -11355,14 +12027,14 @@ R13
 R14
 n4c892a6
 AdPufUQo66jvSwnfqEroS3w==
-R290
-Z291 DEx4 work 49 square_root_48_48_integer_xbip_pipe_v3_0_10_viv_0 0 22 zH7QThS<0Zg9JZF]mX]T?1
-Z292 DEx4 work 47 square_root_48_48_integer_xbip_pipe_v3_0_10_viv 0 22 8R@7^J[Cok_@fADD`nN>D3
+R323
+Z324 DEx4 work 49 square_root_48_48_integer_xbip_pipe_v3_0_10_viv_0 0 22 zH7QThS<0Zg9JZF]mX]T?1
+Z325 DEx4 work 47 square_root_48_48_integer_xbip_pipe_v3_0_10_viv 0 22 8R@7^J[Cok_@fADD`nN>D3
 R1
 R2
 R3
 R4
-R289
+R322
 l30927
 L30924
 VTTf[DM<gJ70AO8z[JLSkh3
@@ -11409,7 +12081,7 @@ R1
 R2
 R3
 R4
-R287
+R320
 l6882
 L6880
 VZ;Lhee0SlS8Y6PQ;N_>0X2
@@ -11456,7 +12128,7 @@ R1
 R2
 R3
 R4
-R292
+R325
 l17935
 L17923
 VdoJP3E@J4V`MlD0OG7L2Q0
@@ -11503,7 +12175,7 @@ R1
 R2
 R3
 R4
-R291
+R324
 l17997
 L17985
 VZ31mR^N[Sf?d39moi1Q=h1
@@ -11521,8 +12193,8 @@ R13
 R14
 R16
 Etop_level_testbench
-Z293 w1778960104
-R259
+Z326 w1778960104
+R306
 R2
 R251
 R242
@@ -11531,8 +12203,8 @@ R1
 R3
 R4
 R5
-Z294 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd
-Z295 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd
+Z327 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd
+Z328 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd
 l0
 L12
 ViRnaIACfhQ[6^`PXhC24N3
@@ -11541,15 +12213,15 @@ R8
 32
 !s110 1778960113
 !i10b 1
-Z296 !s108 1778960113.000000
-Z297 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd|
-Z298 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd|
+Z329 !s108 1778960113.000000
+Z330 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd|
+Z331 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/qam16_testbench.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-DEx4 work 23 find_likely_coordinates 0 22 T]BU80bULSL<[fiU@hWf71
-R259
+R301
+R306
 R2
 R251
 R242
@@ -11566,19 +12238,19 @@ R8
 32
 !s110 1778960114
 !i10b 1
-R296
-R297
-R298
+R329
+R330
+R331
 !i113 1
 R13
 R14
 Ptxt_util
 R3
 R4
-Z299 w1764380059
+Z332 w1764380059
 R5
-Z300 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd
-Z301 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd
+Z333 8C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd
+Z334 FC:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd
 l0
 L12
 VcNYag`PZ2UY>J[@f4hlg51
@@ -11586,11 +12258,11 @@ VcNYag`PZ2UY>J[@f4hlg51
 R8
 32
 b1
-Z302 !s110 1778718787
+Z335 !s110 1778718787
 !i10b 1
-Z303 !s108 1778718787.000000
-Z304 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd|
-Z305 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd|
+Z336 !s108 1778718787.000000
+Z337 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd|
+Z338 !s107 C:/Users/ambig/source/RTL/VHDL/quadrature_amplitude_modulation/txt_util.vhd|
 !i113 1
 R13
 R14
@@ -11604,11 +12276,11 @@ VViVEHM?86QCVOH?_PMCKB0
 !s100 Nz@@:I>70F67@G^o[ICQB2
 R8
 32
-R302
+R335
 !i10b 1
-R303
-R304
-R305
+R336
+R337
+R338
 !i113 1
 R13
 R14
