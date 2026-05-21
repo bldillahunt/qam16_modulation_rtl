@@ -14,13 +14,16 @@ end entity constellation_testbench;
 
 architecture behavioral of constellation_testbench is
 	
-	constant CLOCK_PERIOD			: time := 4.0 ns;
+	constant CLOCK_PERIOD			: time := 25.0 ns;
+	constant HIGH_SPEED_CLOCK_PERIOD: time := 3.125 ns;
 	constant BEATS_PER_BURST		: integer := 256;
 	constant BITS_PER_BEAT			: integer := 32;
 	constant INTERPACKET_GAP		: time := 32*CLOCK_PERIOD;
+	constant OUTPUT_DATA_SIZE		: integer := (SYMBOL_DATA_SIZE*SAMPLES_PER_SYMBOL*SYMBOLS_PER_WORD)/FIR_SYMBOLS_PER_CLOCK;
 
 	signal clock					: std_logic := '0';
 	signal reset					: std_logic := '1';
+	signal clock_high_speed			: std_logic := '0';
 	
 	signal binary_data_tready		: std_logic;
 	signal binary_data_tvalid		: std_logic;
@@ -35,13 +38,25 @@ architecture behavioral of constellation_testbench is
 	
 	type data_gen_state_machine is (IDLE, TRANSMIT_PREAMBLE, TRANSMIT_TRAINING_PATTERN, WAIT_FOR_PREAMBLE_TREADY, START_TRANSMITTING_DATA, WAIT_FOR_TREADY, WAIT_FOR_END_OF_BURST, CLEAR_BUS_TRANSACTION);
 	signal data_gen_state			: data_gen_state_machine;
+	
+	signal i_data_tready			: std_logic := '1';
+	signal i_data_tvalid			: std_logic;
+	signal i_data_tdata				: std_logic_vector(OUTPUT_DATA_SIZE-1 downto 0);
+	signal i_data_tlast				: std_logic;
+	signal i_data_tkeep				: std_logic_vector(OUTPUT_DATA_SIZE/8-1 downto 0);
+	signal q_data_tready			: std_logic := '1';
+	signal q_data_tvalid			: std_logic;
+	signal q_data_tdata				: std_logic_vector(OUTPUT_DATA_SIZE-1 downto 0);
+	signal q_data_tlast				: std_logic;
+	signal q_data_tkeep				: std_logic_vector(OUTPUT_DATA_SIZE/8-1 downto 0);
 
 begin
 
 	clock <= not clock after CLOCK_PERIOD/2;
 	reset <= '0' after 1.0 us;
+	clock_high_speed <= not clock_high_speed after HIGH_SPEED_CLOCK_PERIOD/2;
 
-	dut : entity work.convert_data_to_symbols
+	dut_symbols : entity work.convert_data_to_symbols
 	generic map (
 		INPUT_BUS_SIZE		=> 32						-- : integer := 32
 	)
@@ -58,6 +73,32 @@ begin
 		complex_data_tdata	=> complex_data_tdata	,	-- : out	std_logic_vector(SYMBOLS_PER_WORD*SYMBOL_DATA_SIZE*2-1 downto 0);
 		complex_data_tlast	=> complex_data_tlast	,	-- : out	std_logic;
 		complex_data_tkeep	=> complex_data_tkeep		-- : out	std_logic_vector((SYMBOLS_PER_WORD*SYMBOL_DATA_SIZE*2)/8-1 downto 0)
+	);
+
+	dut_interpolate : entity work.interpolate_symbols
+	generic map (
+		FIFO_INPUT_SIZE		=> SYMBOL_DATA_SIZE*SAMPLES_PER_SYMBOL*SYMBOLS_PER_WORD,	-- : integer := SYMBOL_DATA_SIZE*SAMPLES_PER_SYMBOL*SYMBOLS_PER_WORD;
+		OUTPUT_DATA_SIZE	=> (SYMBOL_DATA_SIZE*SAMPLES_PER_SYMBOL*SYMBOLS_PER_WORD)/FIR_SYMBOLS_PER_CLOCK	-- : integer := (SYMBOL_DATA_SIZE*SAMPLES_PER_SYMBOL*SYMBOLS_PER_WORD)/FIR_SYMBOLS_PER_CLOCK
+	)
+	port map (
+		reset				=> reset,					-- : in	std_logic;
+		clock_input			=> clock,					-- : in	std_logic;
+		clock_output		=> clock_high_speed,		-- : in	std_logic;
+		complex_data_tready	=> complex_data_tready	,	-- : out	std_logic;
+		complex_data_tvalid	=> complex_data_tvalid	,	-- : in	std_logic;
+		complex_data_tdata	=> complex_data_tdata	,	-- : in	std_logic_vector(SYMBOLS_PER_WORD*SYMBOL_DATA_SIZE*2-1 downto 0);
+		complex_data_tlast	=> complex_data_tlast	,	-- : in	std_logic;
+		complex_data_tkeep	=> complex_data_tkeep	,	-- : in	std_logic_vector((SYMBOLS_PER_WORD*SYMBOL_DATA_SIZE*2)/8-1 downto 0);
+		i_data_tready		=> i_data_tready,	-- : in	std_logic;
+		i_data_tvalid		=> i_data_tvalid,	-- : out	std_logic;
+		i_data_tdata		=> i_data_tdata	,	-- : out	std_logic_vector(OUTPUT_DATA_SIZE-1 downto 0);
+		i_data_tlast		=> i_data_tlast	,	-- : out	std_logic;
+		i_data_tkeep		=> i_data_tkeep	,	-- : out	std_logic_vector(OUTPUT_DATA_SIZE/8-1 downto 0);
+		q_data_tready		=> q_data_tready,	-- : in	std_logic;
+		q_data_tvalid		=> q_data_tvalid,	-- : out	std_logic;
+		q_data_tdata		=> q_data_tdata	,	-- : out	std_logic_vector(OUTPUT_DATA_SIZE-1 downto 0);
+		q_data_tlast		=> q_data_tlast	,	-- : out	std_logic;
+		q_data_tkeep		=> q_data_tkeep		-- : out	std_logic_vector(OUTPUT_DATA_SIZE/8-1 downto 0)
 	);
 
 	-- Create the data using a PRBS generator

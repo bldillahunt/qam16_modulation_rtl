@@ -16,7 +16,9 @@ package common_parameters is
 	constant BINARY_INPUT_DATA_SIZE	: integer := 32;
 	constant ENCODED_BIT_SIZE		: integer := 4;
 	constant SYMBOL_DATA_SIZE		: integer := 8;
+	constant SAMPLES_PER_SYMBOL		: integer := 8;
 	constant SYMBOLS_PER_WORD		: integer := BINARY_INPUT_DATA_SIZE/ENCODED_BIT_SIZE;
+	constant FIR_SYMBOLS_PER_CLOCK	: integer := 8;
 
 	constant PREAMBLE				: std_logic_vector(BINARY_INPUT_DATA_SIZE-1 downto 0) := x"F0F0F0F0";
 	constant TRAINING_PATTERN 		: std_logic_vector(BINARY_INPUT_DATA_SIZE-1 downto 0) := x"DEADBEEF";
